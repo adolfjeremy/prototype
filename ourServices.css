@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;600;700&display=swap");
+
+#ourServices,
+.our_service_list {
+    font-family: "Familjen Grotesk", sans-serif;
+}
+
+#ourServices {
+    background-image: url(our-services.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    position: relative;
+}
+
+.our_service_header {
+    background-color: #272e45;
+}
+
+#ourServices h1,
+#ourServices h2 {
+    text-transform: uppercase;
+}
+
+#ourServices h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffc107;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+#ourServices h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 30px 70px 30px 0;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    #ourServices h2 {
+        font-size: 55px;
+    }
+
+    #ourServices p {
+        font-size: 22px;
+    }
+
+    .our_service_list h3 {
+        font-size: 28px;
+    }
+
+    .accordion h2 button {
+        font-size: 38px;
+    }
+
+    .accordion-body {
+        font-size: 16px;
+    }
+}
+#ourServices p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: left !important;
+}
+
+.accordion-item {
+    border: 1px solid #272e45;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+
+.accordion h2 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.our_service_list h3 {
+    font-size: 22px;
+    padding: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.accordion h2 button {
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #272e45;
+    background-color: #fff;
+}
+
+.accordion-button:focus {
+    border: none !important;
+    box-shadow: none;
+}
+
+.accordion-body {
+    font-size: 18px;
+    padding-left: 20px;
+}
